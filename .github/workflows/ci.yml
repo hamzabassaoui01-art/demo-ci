@@ -18,10 +18,10 @@ jobs:
           node-version: 22
 
       - name: Verifier JavaScript
-        run: node --check script.js
+        run: node --check demo-ci/script.js
 
       - name: Verifier HTML
-        run: test -f index.html
+        run: test -f demo-ci/index.html
 
       - name: Afficher resultat
         run: echo "CI terminee avec succes"
