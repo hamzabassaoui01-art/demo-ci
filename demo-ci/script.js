@@ -4,3 +4,4 @@ function bonjour() {
 
 document.getElementById("message").textContent =
     bonjour();
+    const x = ;
